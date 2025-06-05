@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+  justify-content: row-reverse;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.info {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.avatar img {
+  width: 130px;
+  height: 130px;
+   float: left;
+  margin-right: 50px;
+  border-radius: 0;
+  object-fit: cover;
+}
